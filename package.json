@@ -1,0 +1,31 @@
+{
+  "name": "h7utils",
+  "version": "1.0.0",
+  "description": "h7utils written in typescript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h7ml/h7utils.git"
+  },
+  "keywords": [
+    "h7utils",
+    "typescript",
+    "javascript",
+    "utils"
+  ],
+  "author": "h7ml",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h7ml/h7utils/issues"
+  },
+  "homepage": "https://github.com/h7ml/h7utils#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
