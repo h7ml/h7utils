@@ -1,6 +1,6 @@
 {
   "name": "h7utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "h7utils written in typescript",
   "main": "./dist/index.js",
   "scripts": {
