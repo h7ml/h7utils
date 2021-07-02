@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var isNoWord = function (value) { return /^[^A-Za-z]*$/g.test(value); };
 /**
  * 验证中文和数字
- * @param { string } value
+ * @param { string} value
  */
 var isCHNAndEN = function (value) {
     return /^((?:[\u3400-\u4DB5\u4E00-\u9FEA\uFA0E\uFA0F\uFA11\uFA13\uFA14\uFA1F\uFA21\uFA23\uFA24\uFA27-\uFA29]|[\uD840-\uD868\uD86A-\uD86C\uD86F-\uD872\uD874-\uD879][\uDC00-\uDFFF]|\uD869[\uDC00-\uDED6\uDF00-\uDFFF]|\uD86D[\uDC00-\uDF34\uDF40-\uDFFF]|\uD86E[\uDC00-\uDC1D\uDC20-\uDFFF]|\uD873[\uDC00-\uDEA1\uDEB0-\uDFFF]|\uD87A[\uDC00-\uDFE0])|(\d))+$/g.test(value);
@@ -65,7 +65,7 @@ var isVersion = function (value) { return /^\d+(?:\.\d+){2}$/g.test(value); };
  *  @param { string } value
  */
 var isImageUrl = function (value) {
-    return /^https?:\/\/(.+\/)+.+(\.(gif|png|jpg|jpeg|webp|svg|psd|bmp|tif))$/i.test(value);
+    return /^https?:\/\/(.+\/)+.+(\.(gif|png|jpg|jpeg|webp|svg|psd|bmp|tif))$/g.test(value);
 };
 /**
  * 验证中文姓名
